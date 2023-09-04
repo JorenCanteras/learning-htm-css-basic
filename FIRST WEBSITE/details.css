@@ -1,0 +1,177 @@
+body    { /* yung buong katawan ng website */
+/*background-image: url(bbq.jpeg);*/
+
+}
+
+h1 { /*h1 it self  lahat ng h1 ganyan kulay sa baba pati bg*/
+    color: red; 
+background-color: aqua; 
+    
+}
+
+p { /*p it self  lahat ng p ganyan kulay sa baba pati bg*/
+color: blue;
+background-color: yellowgreen;
+
+}
+/*creating id*/
+#para { /*id para maging iba kase yung p is naiiba kulay kaya need mo ng id para iba kulay*/
+color: black;
+background-color: antiquewhite;
+}
+
+/*creating class*/
+.headstyle {
+    color: blueviolet;
+    background-color: blanchedalmond;
+}
+
+/*creating div*/
+div{ /*ito yung division*/
+    background-color: red;
+    opacity:100% ; /*pamablurd */
+
+    padding-top:50px ;
+    padding-bottom:50px ;
+    padding-right:50px ;
+    padding-left:50px ;
+
+}
+
+/*creating borders using class*/
+/*mga borders yan lahat ng borders na pwedeng gamitin example lang yan, you can set height and width */
+.dotted{
+    border-style: dotted;
+    width: 100px;
+}
+.solid{
+    border-style: solid;
+    height: 100px;
+}
+.double{
+    border-style: double;
+    color: red;
+}
+
+.inset{
+    border-style: inset;
+}
+
+/*creating margin using class*/
+.margins{
+border: 1px solid;
+margin-top:100px ;
+margin-bottom: 100px; 
+margin-left:100px ;
+margin-right: 100px;
+
+}
+
+/*creating boxmodels using id*/
+
+#boxmodels{
+    background-color: lightgrey;
+    border: solid green;
+    width: 300px;
+    margin: 20px;
+    padding: 50px;
+}
+
+/*creating alignment using class*/
+
+.align{
+    text-align: center;
+}
+
+/*creating space using class*/
+/*spacing ng line sa word*/
+.space{
+    line-height: 4;
+}
+
+/*creating spaceword using class*/
+.spaceword{
+    letter-spacing: 15px;
+
+}
+/*creating a modification*/
+a{
+    color: violet;
+}
+/*turning green if the site visited*/
+a:visited{
+    color:green;
+}
+/*turning aquamarine if you want to click the site*/
+a:hover{
+    color: aquamarine;
+}
+
+/*using float*/
+/*to move image*/
+img{
+    float: right;
+}
+/*ikaw na bahala sa text customize mo*/
+.textsize{
+font-size: 100px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*learning list and navigation*/
+ul{
+    list-style: none;
+    margin:0 ;
+    padding:0 ;
+    overflow:hidden ;
+    background-color: grey;
+
+
+}
+
+li {
+
+    float:left;
+
+
+}
+
+li a {
+
+display:block;
+color: white;
+text-align:center ;
+padding: 10px 10px;
+text-decoration:none ;
+
+
+}
+
+li a :hover:not(.active) {
+
+    background-color: black;
+
+
+}
+
+.active {
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
